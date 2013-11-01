@@ -1,0 +1,31 @@
+CACHE MANIFEST
+CACHE:
+# jQuery Mobile's files
+lib/jquery/jquery-1.10.2.js
+lib/jquery-mobile/jquery.mobile-1.3.2.js
+lib/jquery-mobile/jquery.mobile-1.3.2.css
+lib/jquery-mobile/images/ajax-loader.gif
+lib/jquery-mobile/images/icons-18-black.png
+lib/jquery-mobile/images/icons-18-white.png
+lib/jquery-mobile/images/icons-36-black.png
+lib/jquery-mobile/images/icons-36-white.png
+
+# HTML documents
+# index.html is always cached implicitly
+# add other HTML documents here
+
+# Custom script and CSS
+src/script/script.js
+src/style/style.css
+
+# Custom images
+src/image/logo.png
+
+# We don't need to cache iOS icons or launch image as the
+# platform will cache it by itself
+
+NETWORK:
+# We will go to the network only for the JSON file
+http://localhost:8000/sessions
+
+
